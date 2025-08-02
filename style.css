@@ -51,6 +51,60 @@ nav a{
 }
 
 #fanta_can{
-    width: 30vw;
+    width: 35%;
     height: auto;
+    z-index: 2;
+}
+
+#orange_slice{
+    width: 20%;
+    height: auto;
+    position: absolute;
+    top:3%;
+    left: 30%;
+    z-index: 1;
+}
+#orange{
+    width: 25%;
+    height: auto;
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+}
+
+#page-one h1{
+    font-size: 23rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#leaf-1{
+    width: 20%;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+#leaf-2{
+    width: 20%;
+    height: auto;
+    position: absolute;
+    top: 6%;
+    left: 82%;
+    transform: rotate(-75deg);
+}
+
+#page-two{
+    width: 100%;
+    height: 100vh;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
