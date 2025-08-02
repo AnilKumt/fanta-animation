@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
 }
 html, body {
     height: 100%;
@@ -11,4 +12,45 @@ html, body {
     width: 100%;
     height: 100vh;
     background-color: orangered;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: antiquewhite; */
+    padding: 0vw 10vw;
+    position: fixed;
+}
+
+nav a{
+    text-decoration: none;
+    /* color: black; */
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 1vw;
+}
+
+#menu-icon{
+    display: none;
+    font-size: 2rem;
+    /* color: black; */
+    color: white;
+
+}
+
+#page-one{
+    width: 100%;
+    height: 100vh;
+    background-color: linear-gradient(to right, #ff7e5f, #feb47b);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fanta_can{
+    width: 30vw;
+    height: auto;
 }
