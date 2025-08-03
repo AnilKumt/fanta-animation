@@ -5,7 +5,7 @@ var tl = gsap.timeline({scrollTrigger: {
     start:"0% 95%",
     end:"50% 50%",
     scrub: true,
-    markers: true
+    // markers: true
 }
 });
 
@@ -31,3 +31,34 @@ tl.to("#orange",{
     left:"75%",
     scale: 0.5,
 },'second_page')
+
+var tl2 = gsap.timeline({scrollTrigger: {
+    trigger: "#page-three",
+    start:"0% 95%",
+    end:"50% 50%",
+    scrub: true,
+    markers: true
+}
+});
+
+tl2.from("#cocacola",{
+    top:"1%",
+    left:"-20%",
+    rotate: "360deg",
+    duration: 1,
+},'thired_page')
+
+tl2.from("#pepsi",{
+    top:"100%",
+    left:"120%",
+    rotate: "-360deg",
+    duration: 1,
+},'thired_page')
+
+tl2.to("#fanta_can",{
+    top:"205%",
+    left:"33%",
+    rotate: "-360deg",
+    duration: 1,
+    scale: 0.85,
+},'thired_page')
